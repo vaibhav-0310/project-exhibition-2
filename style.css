@@ -1,0 +1,386 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lora', serif;
+    font-family: 'Martel Sans', sans-serif;
+    color:white;
+}
+#i1{
+    width:24vh;
+    fill: #E50914;
+    padding-left: 30px;
+}
+main{
+    background-color: black;
+}
+.navbar{
+    z-index: 2;
+   padding: 0px;
+   background-color: transparent;
+}
+.container{
+    position: absolute;
+    padding-top: 25px;
+}
+.btt1{
+    background-color: black;
+    padding: 0px 15px 0px;
+    border:2px solid rgb(70, 68, 68);
+    border-radius: 4px;
+    opacity: 0.6;
+}
+.btt1 select{
+    background-color: black;
+    font-weight:1000px;
+    font-size: 0.95rem;
+}
+.btt1 svg{
+    margin-bottom: 2px;
+}
+.btt1 select option{
+    background-color: #FFFFFF;
+    color:black;
+    width:150.4px;
+}
+.btt1:hover{
+   border:2px solid #FFFFFF;
+}
+.btt1 select:active{
+    border:none;
+}
+.bt1{
+    display: flex;
+}
+#bt{
+    background-color:#E50914;
+    border:none;
+    padding: 3px 14px;
+    border-radius: 4px;
+    margin-left: 25px;
+}
+.img img{
+  background-size: contain;
+  height: 700px;
+  z-index: 1;
+  width:100%;
+}
+.img{
+    z-index: 1;
+    height:710px;
+    background-image: url("assests/output-onlinepngtools\ \(2\).png");
+    border-bottom: 10px solid #615a5a;
+    background-size: max(1250px, 100vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    color: white;
+}
+.tex{
+    margin-top: 90px;
+    text-align: center; 
+    color: #FFFFFF;
+}
+.t1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.t2{
+    font-size: 1.5rem;
+    font-weight: 50;
+}
+.input{
+    margin-right: 8px;
+    height: 12px;
+    width: 336px;
+    padding: 24px 8px;
+    background-color: black;
+    opacity: 0.6;
+    border: none;
+    border-radius: 4px;
+}
+.t3{
+    font-size: 1.25rem;
+}
+.bu{
+    background-color: #E50914;
+    padding:10px 24px;
+    border: none;
+    font-size: large;
+    border-radius: 4px;
+}
+.ct1{
+    height: 600px;
+    font-size: 1.25rem;
+    border-bottom: 8px solid #383838;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  font-size: 1.25rem;
+  
+}
+.ct1 p{
+   font-size: 2.8rem;
+   font-weight: bolder;
+}
+.img2{
+    height:400px;
+    width: 500px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    display: flex;
+}
+.img2 img{
+   height:450px;
+   width:575px;
+   z-index: 10;
+   position: absolute;
+}
+.img2 video{
+    height:400px;
+    width:450px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 13px;
+}
+.img3{
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.img4{
+    height:400px;
+    width: 500px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    display: flex;
+}
+.img4 img{
+   height:450px;
+   width:575px;
+   z-index: 10;
+   position: absolute;
+   margin-top:70px;
+}
+.img4 video{
+    height:400px;
+    width:360px;
+    position: absolute;
+    margin-left: 100px;
+}
+.faq{
+    height: 1000px;
+    border-bottom: 8px solid #383838;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid{
+    height: 96px;
+    background-color: #383838;
+    width:1200px;
+    border:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0px 50px 10px 50px;
+    border-radius: 2px;
+    padding: 33px 24px 24px 24px;
+    font-size: 1.5rem;
+}
+.container-fluid svg{
+    height: 50px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+h6{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+#input1{
+    border:1px solid whitesmoke;
+    background-color: #221e1e;
+}
+.grid-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid{
+    height:400px;
+    background-color: black;
+
+}
+.q1{
+    display: flex;
+    flex-direction: column;
+}
+.q1 a{
+    color: #e8e3e3;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+.grid p{
+    margin-left: 212px;
+    padding-top:70px;
+}
+.grid p a{
+    color: #FFFFFF;
+}
+.grid span{
+    margin-left: 212px;
+    font-size: 0.85rem;
+    font-weight: 80;
+}
+#b1{
+    margin-left: 212px;
+}
+
+
+@media (min-width: 1200px) {
+
+}
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+ 
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 754px) and (max-width: 991px) {
+    #i1{
+        width:15vh
+    }
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width:754px) and (min-height: 300px) {
+    .btt1 select{
+        visibility: hidden;
+    }
+    .btt1{
+        height: 30px;
+        width: 30px;
+        padding:0px;
+        padding-left:5px;
+    }
+    .img{
+        background-image:url('assests/download.png');
+        height: 600px;
+    }
+    .img input{
+        width:300px;
+    }
+    #i1{
+        width: 15vh;
+    }
+    .t2{
+        font-size: 1rem;
+    }
+    .t1{
+        font-size: 1.7rem;
+    }
+    .tex{
+        width:300px;
+    }
+    .tex input{
+        margin-bottom: 4px;
+    }
+    .ct1{
+        height: 500px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+    }
+    .ct1 p{
+        margin-top: 50px;
+        font-size: 1.75rem;
+    }
+    .img2 img{
+        height: 250px;
+        width:300px;
+        margin-bottom: 0px;
+        position: absolute;
+    }
+    .img2 video{
+        height:200px;
+        width:230px;
+        position: absolute;
+        margin: 19px 0px 0px 35px;
+    }
+    .img2{
+        height:250px;
+        width:300px;
+        margin: 0px 0px 0px 10px;
+        position: relative;
+    }
+    .img3 img{
+        height:200px;
+        width:300px;
+        margin: 0px 0px 0px 0px;
+    }
+    .img4 img{
+        height: 200px;
+        width:300px;
+        margin-bottom: 0px;
+        
+    }
+    .img4 video{
+        height:265px;
+        width:180px;
+        right: 62px;
+        position: absolute;
+    }
+    .img4{
+        height:300px;
+        width:300px;
+        margin: 0px 0px 0px 10px;
+        position: relative;
+    }
+    .container-fluid{
+        height:70px;
+        width:300px;
+        padding: 20px 10px 10px 10px;
+        margin:0px 20px 10px 20px;
+        font-size: 1rem;
+    }
+    .container-fluid svg{
+        height:30px;
+        width:40px;
+    }
+    h6{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    .faq{
+        height: 900px;
+    }
+    #input1{
+        margin-bottom: 10px;
+        width:270px
+    }
+    #t1{
+        width:300px;
+        font-size: 1rem;
+    }
+    .grid p{
+        margin-left: 20px;
+    }
+    .grid span{
+        margin-left: 20px;
+    }
+    #b1{
+        margin-left: 20px;
+    }
+    .fix{
+        margin-left:20px;
+    }
+    .grid-container{
+        flex-direction: column;
+    }
+}
